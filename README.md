@@ -1,3 +1,4 @@
-# stepik_autotests_course
+# Autotests by Stepik
 
-Тут будут учебные файлы
+- PyTest
+- Simple examples.
