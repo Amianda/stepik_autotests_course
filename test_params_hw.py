@@ -7,13 +7,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-@pytest.fixture(scope="function")
-def browser():
-    print("\nstart browser for test..")
-    browser = webdriver.Chrome()
-    yield browser
-    print("\nquit browser..")
-    browser.quit()
+# @pytest.fixture(scope="function")
+# def browser():
+#     print("\nstart browser for test..")
+#     browser = webdriver.Chrome()
+#     yield browser
+#     print("\nquit browser..")
+#     browser.quit()
 
 
 @pytest.mark.parametrize('number', ["895", "896", "897", "898", "899", "903", "904", "905", "905"])
